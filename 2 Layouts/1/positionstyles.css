@@ -7,7 +7,35 @@ body{
  #static, #relative, #absolute, #fixed{
  	width: 200px;
  	height: 200px;
- 	background-color: #ABC;
+ 	background-color: #999999;
  	color: #FFF;
  }
 
+#static {
+	position: static;
+	background-color: green;
+}
+
+#relative {
+	position: relative;
+	background-color: #0000ff;
+	top: -100px;
+	left: 100px;
+}
+
+#absolute {
+	/* will position itself relative to the first parent that doesn't have a postion of static */
+	position: absolute;
+	right: 5px;
+	top: 100px;
+}
+
+#fixed {
+	position: fixed;
+	left: 300px;
+	top: 300px;
+	background-color: yellow;
+	color: black;
+	border-radius: 100px;
+	opacity: 70%;
+}

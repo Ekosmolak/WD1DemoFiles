@@ -4,3 +4,12 @@ body
 	padding:0px;
 	font-family:Helvetica;
 }
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+	width: 200px;
+}

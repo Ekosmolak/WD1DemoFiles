@@ -54,6 +54,7 @@ aside
 
 footer
 {
+	clear: both;
 	width:600px;
 	height:60px;
 	padding:10px;
